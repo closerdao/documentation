@@ -1,0 +1,18 @@
+# Table of contents
+
+* [Introduction](README.md)
+* [UI Toolkit](ui-toolkit.md)
+* [API](api/README.md)
+  * [/article](api/article.md)
+  * [/booking](api/booking.md)
+  * [/config](api/config.md)
+  * [/lesson](api/lesson.md)
+  * [/event](api/event.md)
+  * [/post](api/post.md)
+* [Smart Contracts](smart-contracts/README.md)
+  * [$ProjectToken](smart-contracts/usdprojecttoken.md)
+  * [Booking contract](smart-contracts/booking-contract.md)
+  * [$Presence](smart-contracts/usdpresence.md)
+  * [$Sweat](smart-contracts/usdsweat.md)
+  * [Decay](smart-contracts/decay.md)
+  * [Sale Contract](smart-contracts/sale-contract.md)
