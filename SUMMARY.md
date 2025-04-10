@@ -11,7 +11,7 @@
   * [Token Membership](subscriptions-payments/citizenship.md)
 * [Inventory](inventory-management/README.md)
 * [Learning Hub](learning-hub/README.md)
-* [Governance & Token features](governance/README.md)
+* [Governance & Token features](governance-token/README.md)
   * [$ProjectToken](governance-token/projecttoken.md)
   * [Booking contract](governance-token/booking-contract.md)
   * [$Presence](governance-token/presence.md)
