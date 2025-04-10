@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Booking System](booking-system/README.md)
-* [Events & Ticketing](events/README.md.md)
+* [Events & Ticketing](events/README.md)
   * [Creating events](events/creating-events.md)
   * [Editing events](events/editing-events.md)
   * [Managing tickets](events/managing-tickets.md)
