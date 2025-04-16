@@ -1,28 +1,97 @@
----
-description: 'Status: Draft, Last Updated: 8 June 2024'
----
+# $Presence Token Technical Documentation
 
-# $Presence
+## Overview
+The $Presence token is a specialized ERC-20 token that implements a continuous decay mechanism to represent physical presence at a land Project. Unlike standard ERC-20 tokens, $Presence tokens automatically decrease in value over time, creating a time-weighted representation of community participation where recent stays have higher value than older ones.
 
-The $Presence token is designed as a measure of a user's physical presence in a Project.
 
-$Presence is a Soulbound (non-transferrable) decayed\* ERC-20 token.
+## Core Features
 
-Contract parameters (DAO controlled):
+*Non-transferrable*: Tokens can only be minted and burned, not transferred between addresses
+*Continuous Decay*: Token balances automatically decay at a configurable daily rate
+*Time-Weighted Governance*: Recent presence has higher weight than historical presence
+*Role-Based Access Control*: Only authorized roles can mint and burn tokens
 
-* Rate of decay\* (default 10% per annum)
-* Minter role woul
+## Technical Implementation
+The $Presence token extends OpenZeppelin's ERC20Upgradeable contract with additional functionality for decay management:
 
-\*decay: in order to represent the loss of context a user would have from being absent in the land project, we give higher governance weight to more recent stays. \
-\
-Example:\
-Decaying the $Presence by 10% per year would mean that after 5 years, instead of 100 initial $Presence received, 59 $Presence would be the updated balance.&#x20;
+```
+soliditycontract PresenceToken is ERC20Upgradeable, Ownable2StepUpgradeable {
+    // Core functionality and state variables
+}
+```
 
-However, $Presence is also cumulative since you can keep staying in the property and earn more $Presence.&#x20;
+## Decay Mechanism
+The decay mechanism calculates token value reduction over time based on a configurable daily decay rate:
 
-Staying 5 years, 10 nights per year, would result in a total of (10 + 9 + 8.1 + 7.3 + 6.6 = ) 41.&#x20;
+Decay Rate: Configurable parameter that determines how quickly tokens lose value
+Last Decay Timestamp: Tracks when each address's balance was last updated
+Last Decayed Balance: Stores the previously calculated decayed balance
 
-Staying 10 nights for 10 years, it would results in a total of (10 + 9 + 8.1 + 7.3 + 6.6 + 5.9 + 5.3 + 4.8 + 4.3 + 3.9 =) 65.&#x20;
+Balance calculations follow this pattern:
 
-Staying 10 nights for 100 years would result in a total of&#x20;
+balanceOf(address) returns the decay-adjusted balance at current time
+When tokens are minted or burned, the last decayed balance is recalculated first
 
+Token Decay Formula
+The decay follows an exponential decay formula:
+decayedAmount = initialAmount * (1 - decayRatePerDay)^numberOfDays
+Where:
+
+*initialAmount* is the original token amount
+*decayRatePerDay* is the daily decay rate (configurable)
+*numberOfDays* is the number of days since the last update
+
+## Minting
+Tokens are minted when Citizens stay in the project:
+
+`solidityfunction mint(address account, uint256 amount, uint256 daysAgo) external`
+
+Parameters:
+*account*: Address of the Citizen
+*amount*: Number of tokens to mint
+*daysAgo*: If minting for a past stay, days since the stay occurred
+
+## Burning
+Tokens can be burned if a Citizen's stay is canceled or for other adjustments:
+
+`solidityfunction burn(address account, BurnData[] calldata burnDataArray) external returns (uint256 finalBalance)`
+
+Parameters:
+*account*: Address of the Citizen
+*burnDataArray*: Array of burn amounts and corresponding daysAgo values
+
+## Access Control
+Access to mint and burn functions is restricted to addresses with the following roles:
+
+BOOKING_PLATFORM_ROLE
+BOOKING_MANAGER_ROLE
+Contract owner (typically a Multisig)
+
+## Integration with Governance
+The $Presence token is designed to integrate with a governance system. When used in governance, the decayed balance of $Presence tokens give greater voting influence to Citizens with recent physical presence.
+
+_Example 1: Token Decay_
+If a Citizen receives 1 $Presence token and the daily decay rate is 0.03% (approximately 10% per year):
+
+After 30 days: ~0.99 tokens remain
+After 180 days: ~0.95 tokens remain
+After 365 days: ~0.90 tokens remain
+
+_Example 2: Multiple Minting Events_
+If a Citizen:
+
+Receives 1 $Presence token
+Waits 60 days (token decays to ~0.98)
+Receives another 1 $Presence token
+Total balance becomes ~1.98 tokens
+After another 30 days, balance decays to ~1.96 tokens
+
+## Limitations and Considerations
+
+- Token transfers are explicitly prohibited
+- Token approvals are disabled
+- High-precision math is used to prevent rounding errors during decay calculations
+- Small rounding errors (up to 100,000 wei) are tolerated during burn operations
+- 
+## Deployment
+$Presence tokens are deployed as part of the token ecosystem for each project. The contract uses the Upgradeable Proxy pattern from OpenZeppelin to allow for future functionality improvements while preserving token balances.
