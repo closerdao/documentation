@@ -2,6 +2,8 @@
 
 The listings page provides you an overview of all your listings. The interface is designed to be simple and intuitive so you can quickly see what’s in stock and what needs attention.
 
+![](https://github.com/user-attachments/assets/a7c20b7c-ee08-4e36-9b7e-6224e8892744)
+
 ## What You See on the Dashboard
 
 - **Listings Table:**  
