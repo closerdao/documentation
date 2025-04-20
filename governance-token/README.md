@@ -2,6 +2,11 @@
 
 At the heart of Closer's innovation is its approach to community governance and value exchange. The Native Tokens & Governance module leverages blockchain-based tools that enable transparent, participatory, and equitable decision-making while opening new opportunities for resource allocation and economic relationships. This system serves as a bridge between traditional community management and emerging decentralized methods—making it possible for communities to evolve their decision processes while remaining connected to the broader Web3 ecosystem.
 
+
+![](https://github.com/user-attachments/assets/664bb472-aea7-448b-8598-9eb935c59c23)
+
+
+
 ---
 
 ## 1. Native Community Tokens
