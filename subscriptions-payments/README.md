@@ -2,6 +2,8 @@
 
 The Subscriptions & Payments module is designed to help your community generate steady revenue while staying true to its purpose. It gives you easy tools to set up different subscription levels, manage how you accept payments, and support long-term community commitment with the Citizenship Program.
 
+![](https://github.com/user-attachments/assets/39601198-7af5-4631-bc8d-9ca437940194)
+
 ## Key Features
 
 1. **Subscription Tiers:**  
