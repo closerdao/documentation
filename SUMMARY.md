@@ -8,7 +8,7 @@
   * [Managing tickets](events/managing-tickets.md)
   * [FAQ](events/faq.md)
 * [Subscriptions & Payments](subscriptions-payments/README.md)
-  * [Token Membership](subscriptions-payments/citizenship.md)
+  * [Citizen Program](subscriptions-payments/citizenship.md)
 * [Inventory](inventory-management/README.md)
   * [Create Listing](inventory-management/create-listing.md)
 * [Learning Hub](learning-hub/README.md)
