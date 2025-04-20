@@ -2,6 +2,8 @@
 
 This page lets you add a new listing to your inventory. Use this form to enter all the details about your listing so that your community members know what’s available. The process is simple and designed to guide you step by step.
 
+![](https://github.com/user-attachments/assets/9d864347-637c-4cf4-8781-20c4254e4100)
+
 ---
 
 ## 1. Basic Details
