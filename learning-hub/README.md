@@ -4,6 +4,8 @@
 
 Knowledge sharing lies at the heart of the regenerative movement. The Learning Hub transforms your community's wisdom, practices, and insights into accessible educational content that can benefit members, visitors, and the wider movement for regenerative living.
 
+![Screen Shot 2025-04-20 at 6 08 29 PM](https://github.com/user-attachments/assets/6581e0e5-7952-4349-ae4b-c4f74aa846db)
+
 This module helps you create, organize, and share courses, workshops, documents, and multimedia content that capture your community's unique approach to regeneration. By making this knowledge accessible, you extend your impact beyond physical boundaries while potentially creating additional revenue streams to support your community's work.
 
 ---
