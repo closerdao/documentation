@@ -14,6 +14,8 @@ Events are pivotal moments for regenerative communities—opportunities for lear
 - **Offer Ticketing Options:**  
   Define multiple ticket types, prices, quantities, and discounts, including volunteer or scholarship tickets.
 
+![Screen Shot 2025-04-20 at 5 15 05 PM](https://github.com/user-attachments/assets/925378db-9645-4187-b8a4-fceccdc81252)
+
 ## Key Features
 
 - **Upcoming & Past Listings:**  
