@@ -10,6 +10,7 @@
 * [Subscriptions & Payments](subscriptions-payments/README.md)
   * [Token Membership](subscriptions-payments/citizenship.md)
 * [Inventory](inventory-management/README.md)
+  * [Create Listing](inventory-management/create-listing.md)
 * [Learning Hub](learning-hub/README.md)
 * [Governance & Token features](governance-token/README.md)
   * [$ProjectToken](governance-token/projecttoken.md)
