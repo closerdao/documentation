@@ -2,6 +2,8 @@
 
 This page describes the settings that power your Closer platform. Each module below controls a specific part of the system. You can adjust these settings to match your community’s needs.
 
+![](https://github.com/user-attachments/assets/93e93ea2-9d79-4a31-bdb7-bc5ffbb8bb8e)
+
 ---
 
 ## 1. Payment Settings
