@@ -4,7 +4,9 @@
 
 Closer’s Accommodation module gives regenerative communities a beautiful, intuitive interface to manage all types of stays—from staff and volunteers to guests and glampers. With real-time listings, image galleries, and integrated booking logic, you can curate a welcoming and efficient space allocation system that reflects the soul of your land.
 
-![](https://github.com/user-attachments/assets/ca5e8b88-5570-44d7-8b9d-37eb0b22950b)
+![](https://github.com/user-attachments/assets/b6d87f67-ee82-40eb-b9ff-865a4e420a07)
+
+---
 
 ## Edit Listings Interface
 
