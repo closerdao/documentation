@@ -2,6 +2,8 @@
 
 Creating an event in the Closer Platform is a simple, guided process. Click the **"Create Event"** button (usually found on the top-right of the Events page or in your Admin Dashboard) to launch the multi-step event creation flow.
 
+![](https://github.com/user-attachments/assets/b6abb5b8-653d-4b58-a970-41d5dca17aec)
+
 ## Step 1: General Tab
 
 In this initial step, you will:
