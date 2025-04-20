@@ -20,7 +20,8 @@ The **Edit Listings** section offers a visual, card-based dashboard to manage yo
 
 Each card lets you quickly assess key details like price and capacity while giving you full control over how each listing is presented.
 
-![](https://github.com/user-attachments/assets/51fc4769-a5b5-47e8-826c-6227a1ba62bc)
+![](https://github.com/user-attachments/assets/0fef88af-a644-4392-8b4b-3571940551c8)
+
 
 
 ## Categories and Filters
