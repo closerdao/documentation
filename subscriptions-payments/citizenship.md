@@ -1,6 +1,6 @@
-# Citizen Program (Configurable Membership)
+# Citizenship Program (Configurable Membership)
 
-The **Citizen Program** lets communities transform their spaces into membership clubs. Members can unlock deeper engagement through token gating, payment plans, and community vouching. The following details are based on an example configuration visible in the screenshots—you can adjust these settings to fit your own needs.
+The **Citizenship Program** lets communities transform their spaces into membership clubs. Members can unlock deeper engagement through token gating, payment plans, and community vouching. The following details are based on an example configuration visible in the screenshots—you can adjust these settings to fit your own needs.
 
 ---
 
