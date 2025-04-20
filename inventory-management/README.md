@@ -16,7 +16,7 @@ The listings page provides you an overview of all your listings. The interface i
   - **Last Updated:** When the listing was last modified.
 
 - **Add Listing:**  
-  See [Create Listing](./create-listing.md)
+  See [Create Listing](https://closer.gitbook.io/documentation/inventory-management/create-listing)
 
 - **User-Friendly Layout:**  
   The design is clean with readable fonts and clear buttons, making it easy even for first-time users.
